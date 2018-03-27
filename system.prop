@@ -62,6 +62,7 @@ ro.surface_flinger.use_color_management=true
 ro.opengles.version=196610
 sdm.debug.disable_inline_rotator=1
 sdm.debug.disable_inline_rotator_secure=1
+vendor.display.disable_rotator_downscale=1
 
 # Disable vsync for cpu rendered apps
 debug.cpurend.vsync=false
@@ -169,4 +170,3 @@ power_supply.wakeup=enable
 ro.config.hw_power_saving=1
 debug.enable.sglscale=1
 dev.pm.dyn_samplingrate=1
-debug.sf.latch_unsignaled=1
