@@ -68,4 +68,7 @@
     <string name="thermal_dialer">Dialer</string>
     <string name="thermal_gaming">Gaming</string>
     <string name="thermal_streaming">Streaming</string>
+
+     <!-- QS tile title -->
+    <string name="dirac_qs_tile_title">Mi sound</string>
 </resources>
