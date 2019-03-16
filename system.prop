@@ -59,6 +59,9 @@ vendor.display.disable_rotator_downscale=1
 sdm.debug.disable_inline_rotator_secure=1
 debug.performance.tuning=1
 
+# Disable vsync for cpu rendered apps
+debug.cpurend.vsync=false
+
 # IMS
 persist.vendor.ims.disableUserAgent=0
 
