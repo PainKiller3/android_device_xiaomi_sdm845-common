@@ -50,3 +50,7 @@ vendor.powerhal.init       u:object_r:vendor_power_prop:s0
 
 # Thermal
 persist.sys.thermal.       u:object_r:thermal_engine_prop:s0
+
+# Wifi version
+vendor.wlan.driver.version       u:object_r:vendor_wifi_version:s0
+vendor.wlan.firmware.version     u:object_r:vendor_wifi_version:s0
