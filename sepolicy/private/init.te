@@ -1,0 +1,2 @@
+allow init input_device:chr_file ioctl;
+allow init input_device:chr_file write;
