@@ -8,6 +8,7 @@ allow hal_camera_default sysfs_kgsl:file r_file_perms;
 allow hal_camera_default sysfs_leds:dir r_dir_perms;
 allow hal_camera_default sysfs_leds:file rw_file_perms;
 allow hal_camera_default sysfs_leds:lnk_file read;
+allow hal_camera_default sysfs_thermal:file write;
 
 r_dir_file(hal_camera_default, persist_camera_file)
 
