@@ -57,12 +57,12 @@ on init
 
     # Boot time FS tune
     write /sys/block/sda/queue/iostats 0
-    write /sys/block/sda/queue/scheduler cfq
+    write /sys/block/sda/queue/scheduler maple
     write /sys/block/sda/queue/iosched/slice_idle 0
     write /sys/block/sda/queue/read_ahead_kb 2048
     write /sys/block/sda/queue/nr_requests 256
     write /sys/block/sdf/queue/iostats 0
-    write /sys/block/sdf/queue/scheduler cfq
+    write /sys/block/sdf/queue/scheduler maple
     write /sys/block/sdf/queue/iosched/slice_idle 0
     write /sys/block/sdf/queue/read_ahead_kb 2048
     write /sys/block/sdf/queue/nr_requests 256
