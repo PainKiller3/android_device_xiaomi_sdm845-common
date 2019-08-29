@@ -211,6 +211,9 @@
          turned off and the screen off animation has been performed. -->
     <bool name="config_dozeAfterScreenOffByDefault">true</bool>
 
+    <!-- Allow automatic adjusting of the screen brightness while dozing in low power state. -->
+    <bool name="config_allowAutoBrightnessWhileDozing">true</bool>
+
     <!-- Power Management: Specifies whether to decouple the auto-suspend state of the
          device from the display on/off state.
 
