@@ -122,6 +122,7 @@ ril.subscription.types=NV,RUIM
 rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
 ro.com.android.dataroaming=true
 ro.telephony.default_network=10,10
+ro.telephony.iwlan_operation_mode=legacy
 telephony.lteOnCdmaDevice=1
 persist.rild.nitz_plmn=
 persist.rild.nitz_long_ons_0=
