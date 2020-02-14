@@ -137,8 +137,7 @@ PRODUCT_PACKAGES += \
 
 # Context Hub
 PRODUCT_PACKAGES += \
-    android.hardware.contexthub@1.0-impl.generic \
-    android.hardware.contexthub@1.0-service
+    android.hardware.contexthub@1.1-service.generic
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
