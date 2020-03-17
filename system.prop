@@ -47,6 +47,7 @@ persist.sys.sf.native_mode=0
 ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
 ro.surface_flinger.max_frame_buffer_acquired_buffers=2
 ro.surface_flinger.max_virtual_display_dimension=4096
+ro.surface_flinger.protected_contents=true
 ro.surface_flinger.vsync_event_phase_offset_ns=2000000
 ro.surface_flinger.vsync_sf_event_phase_offset_ns=6000000
 sdm.debug.disable_inline_rotator=1
@@ -54,8 +55,10 @@ sdm.debug.disable_inline_rotator_secure=1
 
 # IMS
 persist.vendor.ims.disableUserAgent=0
+persist.radio.calls.on.ims=1
 
 # Media
+media.stagefright.thumbnail.prefer_hw_codecs=true
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 
 # Memory optimizations
@@ -68,7 +71,10 @@ ro.netflix.bsp_rev=Q845-05000-1
 ro.vendor.qti.va_aosp.support=1
 
 # RCS
-persist.rcs.supported=0
+persist.rcs.supported=1
+persist.radio.rat_on=combine
+persist.radio.data_ltd_sys_ind=1
+persist.radio.data_con_rprt=1
 
 # RIL
 DEVICE_PROVISIONED=1
