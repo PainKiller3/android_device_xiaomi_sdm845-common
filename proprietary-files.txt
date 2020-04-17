@@ -1,3 +1,5 @@
+# Common proprietary files - from beryllium' MIUI package V11.0.8.0.QDGMIXM global stable version, unless pinned
+
 # ADSP
 vendor/bin/adsprpcd
 vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc
