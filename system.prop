@@ -169,4 +169,3 @@ ro.mot.eri.losalert.delay=1000
 power_supply.wakeup=enable
 ro.config.hw_power_saving=1
 debug.enable.sglscale=1
-dev.pm.dyn_samplingrate=1
