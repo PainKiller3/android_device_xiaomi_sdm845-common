@@ -1,44 +1,89 @@
 LOCAL_PATH := $(call my-dir)
 
+# HAL module implemenation stored in
+# hw/<POWERS_HARDWARE_MODULE_ID>.<ro.hardware>.so
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := android.hardware.power@1.2-service.xiaomi_sdm845
-LOCAL_INIT_RC := android.hardware.power@1.2-service.xiaomi_sdm845.rc
+ifneq ($(TARGET_TAP_TO_WAKE_NODE),)
+    LOCAL_CFLAGS += -DTAP_TO_WAKE_NODE=\"$(TARGET_TAP_TO_WAKE_NODE)\"
+endif
+
 LOCAL_MODULE_RELATIVE_PATH := hw
-LOCAL_MODULE_TAGS := optional
-
-LOCAL_VENDOR_MODULE := true
-
-LOCAL_SRC_FILES := \
-    hint-data.c \
-    list.c \
-    metadata-parser.c \
-    power-845.c \
-    power-common.c \
-    powerhintparser.c \
-    Power.cpp \
-    service.cpp \
-    utils.c
-
+LOCAL_SHARED_LIBRARIES := liblog libcutils libdl libxml2
+LOCAL_HEADER_LIBRARIES += libutils_headers
+LOCAL_HEADER_LIBRARIES += libhardware_headers
+LOCAL_SRC_FILES := power.c metadata-parser.c utils.c list.c hint-data.c powerhintparser.c power-common.c
 LOCAL_C_INCLUDES := external/libxml2/include \
                     external/icu/icu4c/source/common
 
-LOCAL_SHARED_LIBRARIES := \
-    android.hardware.power@1.2 \
-    libbase \
-    libcutils \
-    libdl \
-    libhidlbase \
-    libhidltransport \
-    liblog \
-    libutils \
-    libxml2
+# Include target-specific files.
+ifeq ($(call is-board-platform-in-list, msm8974), true)
+LOCAL_SRC_FILES += power-8974.c
+endif
 
-LOCAL_HEADER_LIBRARIES := generated_kernel_headers
-LOCAL_HEADER_LIBRARIES += libutils_headers
-LOCAL_HEADER_LIBRARIES += libhardware_headers
+ifeq ($(call is-board-platform-in-list, msm8226), true)
+LOCAL_SRC_FILES += power-8226.c
+endif
 
-LOCAL_CFLAGS += -Werror -Wall -Wno-unused-parameter
-LOCAL_CFLAGS += -DINTERACTION_BOOST
+ifeq ($(call is-board-platform-in-list, msm8610), true)
+LOCAL_SRC_FILES += power-8610.c
+endif
 
-include $(BUILD_EXECUTABLE)
+ifeq ($(call is-board-platform-in-list, apq8084), true)
+LOCAL_SRC_FILES += power-8084.c
+endif
+
+ifeq ($(call is-board-platform-in-list, msm8994), true)
+LOCAL_SRC_FILES += power-8994.c
+endif
+
+ifeq ($(call is-board-platform-in-list, msm8996), true)
+LOCAL_SRC_FILES += power-8996.c
+endif
+
+ifeq ($(call is-board-platform-in-list,msm8937), true)
+LOCAL_SRC_FILES += power-8952.c
+endif
+
+ifeq ($(call is-board-platform-in-list,msm8952), true)
+LOCAL_SRC_FILES += power-8952.c
+endif
+
+ifeq ($(call is-board-platform-in-list,msm8953), true)
+LOCAL_SRC_FILES += power-8953.c
+endif
+
+ifeq ($(call is-board-platform-in-list,msm8998 apq8098_latv), true)
+LOCAL_SRC_FILES += power-8998.c
+endif
+
+ifeq ($(call is-board-platform-in-list,sdm660), true)
+LOCAL_SRC_FILES += power-660.c
+endif
+
+ifeq ($(call is-board-platform-in-list,sdm845), true)
+LOCAL_SRC_FILES += power-845.c
+endif
+
+ifeq ($(call is-board-platform-in-list,sdm710), true)
+LOCAL_SRC_FILES += power-710.c
+endif
+
+ifeq ($(call is-board-platform-in-list,qcs605), true)
+LOCAL_SRC_FILES += power-710.c
+endif
+
+ifeq ($(call is-board-platform-in-list,msmnile), true)
+LOCAL_SRC_FILES += power-msmnile.c
+endif
+
+ifeq ($(TARGET_USES_INTERACTION_BOOST),true)
+    LOCAL_CFLAGS += -DINTERACTION_BOOST
+endif
+
+LOCAL_MODULE := power.qcom
+LOCAL_MODULE_TAGS := optional
+LOCAL_VENDOR_MODULE := true
+LOCAL_CFLAGS += -Wno-unused-parameter -Wno-unused-variable
+include $(BUILD_SHARED_LIBRARY)
+

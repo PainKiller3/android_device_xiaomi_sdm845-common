@@ -690,6 +690,11 @@ vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 # Power-off charging daemon
 system/bin/charger:system/bin/chargeonlymode|69b29c2c7b7c65a0d8fd26c2a56f6211e2795fc5
 
+#Power
+vendor/bin/hw/android.hardware.power@1.0-service
+vendor/etc/init/android.hardware.power@1.0-service.rc
+vendor/lib64/hw/android.hardware.power@1.0-impl.so
+
 # QMI
 system/etc/permissions/qti_libpermissions.xml|ef3c88495f2f61a2d16e1445113a9d80f8db0e0a
 system/etc/permissions/qti_permissions.xml
