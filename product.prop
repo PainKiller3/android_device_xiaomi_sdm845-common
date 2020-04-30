@@ -10,6 +10,8 @@ ro.lmk.kill_timeout_ms=100
 ro.lmk.use_minfree_levels=true
 ro.lmk.log_stats=true
 ro.config.low_ram=false
+ro.lmk.swap_util_max=95
+ro.lmk.kill_timeout_ms=100
 
 # HWUI
 ro.hwui.texture_cache_size=72
