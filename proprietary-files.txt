@@ -361,6 +361,7 @@ vendor/lib/libllvm-glnext.so
 vendor/lib/libllvm-qcom.so
 vendor/lib/librs_adreno.so
 vendor/lib/librs_adreno_sha1.so
+vendor/etc/permissions/android.hardware.opengles.aep.xml
 
 # Graphics (Adreno firmware)
 vendor/firmware/a630_gmu.bin
@@ -374,6 +375,10 @@ vendor/firmware/a630_zap.mdt
 # Graphics (Vulkan)
 vendor/lib64/hw/vulkan.sdm845.so
 vendor/lib/hw/vulkan.sdm845.so
+vendor/etc/permissions/android.hardware.vulkan.compute.xml
+vendor/etc/permissions/android.hardware.vulkan.level.xml
+vendor/etc/permissions/android.hardware.vulkan.version.xml
+vendor/etc/permissions/android.software.vulkan.deqp.level.xml
 
 # IMS
 -product/app/uceShimService/uceShimService.apk
