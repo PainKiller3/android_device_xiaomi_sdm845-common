@@ -146,6 +146,9 @@ PRODUCT_PACKAGES += \
     Snap \
     vendor.qti.hardware.camera.device@1.0.vendor
 
+# Camera pinner
+include build/make/target/product/iorap_large_memory_config.mk
+
 # Charger
 PRODUCT_PACKAGES += \
     libsuspend
