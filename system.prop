@@ -63,6 +63,8 @@ ro.opengles.version=196610
 sdm.debug.disable_inline_rotator=1
 sdm.debug.disable_inline_rotator_secure=1
 vendor.display.disable_rotator_downscale=1
+ro.hardware.egl=adreno
+ro.hardware.vulkan=adreno
 
 # Disable vsync for cpu rendered apps
 debug.cpurend.vsync=false
