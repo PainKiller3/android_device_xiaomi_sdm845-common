@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
 
 # Netd
 PRODUCT_PACKAGES += \
+    libandroid_net \
     offload.o
 
 # Overlays
