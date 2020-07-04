@@ -136,7 +136,8 @@ PRODUCT_PACKAGES += \
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
-    XiaomiParts
+    XiaomiParts \
+    PocoParts
 
 # Display
 PRODUCT_PACKAGES += \
