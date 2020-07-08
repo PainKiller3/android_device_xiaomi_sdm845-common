@@ -51,7 +51,8 @@
 
     <Preference
         android:summary="@string/selinux_explanation_summary"
-        android:selectable="false"/>
+        android:selectable="false"
+        android:icon="@drawable/ic_warning" />
 
     <SwitchPreference
         android:key="selinux_mode"
