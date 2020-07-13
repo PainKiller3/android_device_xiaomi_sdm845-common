@@ -26,7 +26,6 @@
 #
 
 on early-init
-    write /proc/sys/kernel/sched_boost 1
 
 on init
     write /dev/stune/foreground/schedtune.sched_boost_no_override 1
@@ -219,9 +218,6 @@ on enable-low-power
     write /dev/cpuset/background/cpus "0-1"
     write /dev/cpuset/system-background/cpus "0-3"
     write /dev/cpuset/restricted/cpus "0-3"
-
-    # Turn off scheduler boost at the end
-    write /proc/sys/kernel/sched_boost 0
 
     # Disable CPU Retention
     write /sys/module/lpm_levels/L3/cpu0/ret/idle_enabled "N"
