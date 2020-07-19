@@ -719,6 +719,9 @@ vendor/lib/libqmi_encdec.so
 vendor/lib/libqminvapi.so
 vendor/lib/libqmiservices.so
 
+# RIL (qti-telephony-common)
+product/framework/qti-telephony-common.jar|fabeba9162fd802a1ba048ddbb5b3b2d23545183
+
 # RIL
 -product/app/QtiTelephonyService/QtiTelephonyService.apk
 product/etc/permissions/qcrilhook.xml
