@@ -251,9 +251,10 @@ on property:sys.boot_completed=1
 on property:init.svc.recovery=running
     trigger enable-low-power
 
-service charger /system/bin/charger
+service vendor.charger /system/bin/chargeonlymode
     class charger
-    group system graphics
+    user system
+    group system graphics input
     capabilities SYS_BOOT
     seclabel u:r:charger:s0
 
