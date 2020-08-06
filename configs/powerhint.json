@@ -458,13 +458,13 @@
       "PowerHint": "INTERACTION",
       "Node": "CPUBigClusterMinFreq",
       "Duration": 0,
-      "Value": "0x00143700"
+      "Value": "979200"
     },
     {
       "PowerHint": "INTERACTION",
       "Node": "CPULittleClusterMinFreq",
       "Duration": 1,
-      "Value": "0x000F8700"
+      "Value": "576000"
     },
     {
       "PowerHint": "INTERACTION",
@@ -513,12 +513,6 @@
       "Node": "UfsHibern8Enable",
       "Duration": 200,
       "Value": "0"
-    },
-    {
-      "PowerHint": "LAUNCH",
-      "Node": "ForegroundCpuset",
-      "Duration": 2000,
-      "Value": "0-5"
     },
     {
       "PowerHint": "LAUNCH",
