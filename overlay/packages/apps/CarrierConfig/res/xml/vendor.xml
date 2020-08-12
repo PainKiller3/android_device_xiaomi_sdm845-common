@@ -139,6 +139,12 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
     </carrier_config>
 
+    <carrier_config mcc="202"  mnc="05">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <int name="carrier_default_wfc_ims_mode_int" value="1" />
+    </carrier_config>
+
     <carrier_config mcc="204" mnc="02">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
@@ -2006,6 +2012,12 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="rtt_downgrade_supported_bool" value="true"/>
         <boolean name="rtt_auto_upgrade_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    </carrier_config>
+
+    <carrier_config mcc="505" mnc="03">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <int name="carrier_default_wfc_ims_mode_int" value="1" />
     </carrier_config>
 
     <carrier_config>
