@@ -132,16 +132,6 @@ ro.com.android.dataroaming=true
 ro.telephony.default_network=10,10
 ro.telephony.iwlan_operation_mode=legacy
 telephony.lteOnCdmaDevice=1
-persist.rild.nitz_plmn=
-persist.rild.nitz_long_ons_0=
-persist.rild.nitz_long_ons_1=
-persist.rild.nitz_long_ons_2=
-persist.rild.nitz_long_ons_3=
-persist.rild.nitz_short_ons_0=
-persist.rild.nitz_short_ons_1=
-persist.rild.nitz_short_ons_2=
-persist.rild.nitz_short_ons_3=
-persist.vendor.radio.force_on_dc=true
 
 # Some Tweaks
 persist.rmnet.data.enable=true
