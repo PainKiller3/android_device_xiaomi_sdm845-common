@@ -1,3 +1,6 @@
+# Blur
+ro.surface_flinger.supports_background_blur=1
+
 # LMKD
 ro.lmk.low=1001
 ro.lmk.medium=800
