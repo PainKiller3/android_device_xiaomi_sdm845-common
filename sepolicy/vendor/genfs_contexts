@@ -33,3 +33,6 @@ genfscon sysfs /devices/platform/soc/soc:qcom,mincpubw                         u
 genfscon sysfs /devices/virtual/touch/tp_dev/fod_status                        u:object_r:sysfs_fod:s0
 genfscon sysfs /power/rpmh_stats/master_stats                                  u:object_r:sysfs_rpm:s0
 genfscon sysfs /power/system_sleep/stats                                       u:object_r:sysfs_system_sleep_stats:s0
+
+# Kernelspace battery saver
+genfscon sysfs /module/battery_saver/parameters/enabled                        u:object_r:sysfs_battery_saver:s0
