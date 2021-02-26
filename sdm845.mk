@@ -195,6 +195,9 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/sdm845-tavil-snd-card_Button_Jack.kl:system/usr/keylayout/sdm845-tavil-snd-card_Button_Jack.kl
 
+# iorap
+PRODUCT_PACKAGES += iorap-nall
+
 # IPA
 PRODUCT_PACKAGES += \
     ipacm \
