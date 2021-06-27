@@ -628,7 +628,7 @@ vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql
 # RIL - from pyxis - RKQ1.200826.002/21.3.31
 -system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|20da64a1fbb4d9c04c763333c4d9a0b7c1053fb9
 system_ext/framework/qcrilhook.jar|ad688364314100318f305ed4ab5defec8766b20a
-system_ext/framework/qti-telephony-common.jar|6811a8482a1951039b143e35447902d7442c7e71
+system_ext/framework/qti-telephony-common.jar|753774ed28aa2951f3a6f515fdbe33e36bc52bee
 -system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|863a36fb4daf2f1ec478c1c765e3b5a7d3af0190
 -vendor/app/IWlanService/IWlanService.apk|fcb1740cdc53c2845eb0609244e3d9790f21c232
 vendor/bin/adpl|09ac73782ef4d1345a13045c7627a46a9e4dbb89
@@ -654,7 +654,7 @@ vendor/lib/libnetmgr_nr_fusion.so|efb6761ae6979bc378fef42f10e5b34d4333769f
 vendor/lib/libnetmgr_rmnet_ext.so|16dcdbe1515445148458fc2c75d3a02edb3c73f9
 vendor/lib/libpdmapper.so|718e667eaa0912f5e74d25a35a12c770cc983a3c
 vendor/lib/libpdnotifier.so|df456450dd5d9a35516ee845727221da68b89bba
-vendor/lib/libqcrilFramework.so|408379cb56377ab26b024e6e5ef500883599a79f
+vendor/lib/libqcrilFramework.so|97b7375db627fc56456fa5c1ee9668209ea2f301
 vendor/lib/libqrtr.so|545d74fb62d03ecf834d9374e95620598d38ee3b
 vendor/lib/libqsocket.so|c4cbaa2f1137630798f8a32ef03265b4f48893a3
 vendor/lib/libril-qc-logger.so|7dec9e079ba51e035f3ad9b6c11bb6ecfb493c84
@@ -665,7 +665,7 @@ vendor/lib/librilqmiservices.so|0e49a8cb427e34068228995636b80a4ed15af839
 vendor/lib/libsettings.so|4675b302e5a1b84249d5791e5393110dcae783a3
 vendor/lib/libsystem_health_mon.so|b43495b41d41130be0ebf4efe37e8aba66ce4ab4
 vendor/lib/qcrild_librilutils.so|d375400f50d03a706d13ba735988cd5136a72c20
-vendor/lib/qtimutex.so|71009c8b9590a24fb8d8513ab835a0de41fc8382
+vendor/lib/qtimutex.so|7ec8be2bb9374373c615a5ca1bef2523df760030
 vendor/lib64/libconfigdb.so|70ba4bed1a76c600c77b2f2f61328c7c5908a9d3
 vendor/lib64/liblqe.so|4163547fe7dc6cbdcddc052ed375224f480e27be
 vendor/lib64/libmdmdetect.so|7d9594eaa6da36b1cf7a7f9ca9447c568dcb2f38
@@ -676,10 +676,10 @@ vendor/lib64/libnetmgr_rmnet_ext.so|1ae234ea8eab246da3277a4e5f041618efa3a064
 vendor/lib64/libnlnetmgr.so|30774ac606a66da3d0394614664caa166cc3f714
 vendor/lib64/libpdmapper.so|a302eef09f60db55f9e7405898fe166b29787353
 vendor/lib64/libpdnotifier.so|fcc36813ae6768fa3570e5368ef651c2eb2c0fa6
-vendor/lib64/libqcrilFramework.so|667e584a6bb133ffbcb09e061099a12a417e33e1
+vendor/lib64/libqcrilFramework.so|814ba1e848a86f1ecad739101f2b224d7df7d714
 vendor/lib64/libqrtr.so|6f7abe88e19e44f6b933de1cac0c7a3437318f04
 vendor/lib64/libqsocket.so|391748e46f7dbbf267dbc5a5c89f0d2a8b4fca4e
-vendor/lib64/libril-qc-hal-qmi.so|9b1d93970207f76adc5ac2d4a68cdc09092afa30
+vendor/lib64/libril-qc-hal-qmi.so|2c0bee07ec882d118a5795eddcc01ad192683ce4
 vendor/lib64/libril-qc-logger.so|f2dd7007382be511f508f0ac94fef1fb2bc6ed80
 vendor/lib64/libril-qc-ltedirectdisc.so|c5f7a0e1438542108356e47eb37263969a117c5f
 vendor/lib64/libril-qc-radioconfig.so|8ebfc843c0a03322ac9adf58b1676ca46ffb3e0b
@@ -688,8 +688,8 @@ vendor/lib64/librilqmiservices.so|d8f6263bfd4d7b00370d2f2042af2545b394dd1c
 vendor/lib64/libsettings.so|87650981b8ccbde785ea8b1c23a33a833e64a8a6
 vendor/lib64/libsystem_health_mon.so|ebe87c25638ef68937c3820db0d49bc762a74619
 vendor/lib64/qcrild_librilutils.so|69354ed8d4f5b18dc890e292bcbfec01fa37edf7
-vendor/lib64/qtibus.so|213ea5270e571e2267b527080e2a3ebe604de37f
-vendor/lib64/qtimutex.so|518032b2a121cbaee6ca63a316a4bcbfac76c668
+vendor/lib64/qtibus.so|b3e0efed2ec5aa43f1b7c1c6dd36b29233b8ba36
+vendor/lib64/qtimutex.so|885ed0c352fa0c58fdf6dbb3054c53675a851342
 vendor/lib64/vendor.qti.hardware.radio.am@1.0.so|a77f4d9dd970cc962d6c54fc1ced921214bcd2aa
 vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so|c6dd375aba54c664e61cf1915477feb01154333f
 vendor/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so|6d7ac9ee3a9249deb30095d0ab753a4a448f6388
@@ -815,7 +815,7 @@ vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 vendor/lib/vendor.qti.hardware.tui_comm@1.0.so
 
 # Widevine DRM - from pyxis - RKQ1.200826.002/21.3.31
-vendor/bin/hw/android.hardware.drm@1.3-service.clearkey|b677008984f632da2ef9a99bb90919a7cb3d1232
+vendor/bin/hw/android.hardware.drm@1.3-service.clearkey|6354947cf00062761fe31010bb8cf527529d0d86
 vendor/bin/hw/android.hardware.drm@1.3-service.widevine|92e4797cb000e86ba74fba9da2c014d7ec8fa1a6
 vendor/etc/init/android.hardware.drm@1.3-service.clearkey.rc|b0e3c49bd13edef549f3afe0b6d64793ec8d2888
 vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc|c35e1a6f9a6faff19064a81e07c4be82ceaf4bb5
