@@ -227,24 +227,24 @@ vendor/lib64/vendor.display.color@1.4.so|1396673668977af0a8afeaa64f891c3b356f958
 vendor/lib64/vendor.display.color@1.5.so|f1c12eb133698917385d48913358eaffd9a10879
 vendor/lib64/vendor.display.postproc@1.0.so|e56b66d744dd77bd87afbb30cab558acf15709fb
 
-# DPM - from pyxis - RKQ1.200826.002/21.3.31
-system_ext/bin/dpmd|bc22fa258f3975744e248dc7d9f26a00a9981ca7
+# DPM - from OnePlus6 - RKQ1.201217.002
+system_ext/bin/dpmd|33d90a04b4094ea346faa25c64c595071f70c26c
 system_ext/etc/dpm/dpm.conf
 system_ext/etc/init/dpmd.rc|738b638ff04cda368e22c03e16baf90ba157a6fc
 system_ext/etc/permissions/com.qti.dpmframework.xml|c4b7ad0879d00c1eba4f3fe3a88ddb8aa153629a
 system_ext/etc/permissions/dpmapi.xml|9158c9789cc7135a685b3fb27f8cc27108b51fef
-system_ext/framework/com.qti.dpmframework.jar|6c2a814d2a1b175b5be47640d75ebf7d23435a5a
-system_ext/framework/dpmapi.jar|a2c04b0850b02dc5ec01e08f856b4facfd08b997
+system_ext/framework/com.qti.dpmframework.jar|96a29e28b3abffb9223daadd67459e3f5a3271df
+system_ext/framework/dpmapi.jar|2e2fbe2257a697b96a644c774136da0554430d3f
 system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so|f2d02195cca305fad78402c65d090bad72955262
-system_ext/lib64/libdpmctmgr.so|df8427f799e6a8cc5ff2ff39fe0323d8b60e815a
-system_ext/lib64/libdpmfdmgr.so|bd1bbd376c2bdfac2f3a4c230ce65cd35cb1c6bd
-system_ext/lib64/libdpmframework.so|67ebd736333ae7158632735e3db06a4f9664f6a6
-system_ext/lib64/libdpmtcm.so|ddef98d55e3045ebac458b38165acd5d2f75cd7a
--system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|d362432226861332b283f46b6ee8240267bf9dc9
-vendor/bin/dpmQmiMgr|4fe936478b0da1ee20c6222234b80d478a72cc2a
+system_ext/lib64/libdpmctmgr.so|4a7f05a58f1f8ddf11ea035e7df98084a88125b3
+system_ext/lib64/libdpmfdmgr.so|0c264df0111928cbe18ef66dd99906e7b23ba325
+system_ext/lib64/libdpmframework.so|d48ce1b2e9f17e2e7a54b228c648cffcd988e06b
+system_ext/lib64/libdpmtcm.so|daeaf1165bbbf28db60e9a857e6ea0ed6d71ff2e
+-system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|9c1f5104edd39365670a9a58efdb36fe85a13be0
+vendor/bin/dpmQmiMgr|3c553042d4257161adb75c0979c829b0cb050639
 vendor/etc/init/dpmQmiMgr.rc|1538743661a5c48c15cd105beaad20f72953885a
-vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|c5c893e86d38b8aa8cd277ccb8b011fb2f19995e
-vendor/lib64/libdpmqmihal.so|ffcd85e1f6bf7d54f37953edc2cb2c4a61fc894a
+vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|d9f1aa7f93b928f42499d613d20ccbc60f279097
+vendor/lib64/libdpmqmihal.so|41eb89e66ba065c43a5eb79cd3c72cef0ee167aa
 
 # DRM - from pyxis - RKQ1.200826.002/21.3.31
 vendor/bin/qseecomd|95cb5940f05850797babd1fd2c47653389bc7b70
