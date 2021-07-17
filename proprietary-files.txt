@@ -547,13 +547,13 @@ vendor/lib64/libOmxVpp.so|ecac67069b45ee1fac35207b31d87633a1550292
 vendor/lib64/libOmxWmaDec.so|397a1e6911c1cdf8b5cf9af141646e18a751cb48
 vendor/lib64/libswvdec.so|53fa9fdb8c0e7529b7ba7b7bb9b278389107115a
 
-# Peripheral manager
-vendor/bin/pm-proxy
-vendor/bin/pm-service
-vendor/lib64/libperipheral_client.so
-vendor/lib64/libspcom.so
-vendor/lib/libperipheral_client.so
-vendor/lib/libspcom.so
+# Peripheral manager - from OnePlus6 - RKQ1.201217.002
+vendor/bin/pm-proxy|60aaf1854b8d1010e9d124518dd81bbc5ae072f7
+vendor/bin/pm-service|534d7152d9c134e8f4c59eec134e0951e0970be2
+vendor/lib64/libperipheral_client.so|9bfd41e276e16b8f7c6808f3d87531fc5be4cdd5
+vendor/lib64/libspcom.so|f6a97eed819a60eb7d6f6f0fb732e25aff8e271f
+vendor/lib/libperipheral_client.so|cb130e759ee4b6160cfafa1c35de93aa6522ef8d
+vendor/lib/libspcom.so|a59f13d03fd07400e68d7ad8802ca9cfb9aea783
 
 # Power-off alarm
 -product/app/PowerOffAlarm/PowerOffAlarm.apk
