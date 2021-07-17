@@ -802,11 +802,11 @@ vendor/lib/libGPTEE_vendor.so|b2bafe26d5365eae1948730194206dfc3e0ba733
 vendor/lib/libQTEEConnector_vendor.so|9a9af7897fa571dfcedf3d7e7947d5d80cf371d3
 vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so|19dca9b4ee8f90339923902ecfc93545ca9b0eca
 
-# Trusted User Interface
-vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
+# Trusted User Interface - from OnePlus6 - RKQ1.201217.002
+vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|15378114c18fd1b1c8f9671f656396285ad1de48
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
-vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
-vendor/lib/vendor.qti.hardware.tui_comm@1.0.so
+vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|960561ba01e28777e099294fb0a9a749e2b2a775
+vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|37a9af9fbdf5e3ec24129037d6f2fc16317ade23
 
 # Widevine DRM - from OnePlus6 - RKQ1.201217.002
 vendor/bin/hw/android.hardware.drm@1.3-service.clearkey|81a95bbcdb5bed58daf713333a7b74de43ccea51
