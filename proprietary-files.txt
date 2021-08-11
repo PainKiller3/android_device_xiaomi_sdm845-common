@@ -555,13 +555,13 @@ vendor/lib64/libspcom.so|f6a97eed819a60eb7d6f6f0fb732e25aff8e271f
 vendor/lib/libperipheral_client.so|cb130e759ee4b6160cfafa1c35de93aa6522ef8d
 vendor/lib/libspcom.so|a59f13d03fd07400e68d7ad8802ca9cfb9aea783
 
-# Power-off alarm
--product/app/PowerOffAlarm/PowerOffAlarm.apk
-vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
-vendor/bin/power_off_alarm
-vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc
-vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so
-vendor/lib64/vendor.qti.hardware.alarm@1.0.so
+# Power-off alarm - from OnePlus6 - RKQ1.201217.002
+-product/app/PowerOffAlarm/PowerOffAlarm.apk|65799ff239d1faaf7bc3a9ad7e7948c4c614f2a1
+vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|6f58edbe898a0582b02b688ec8a47a57a50707ec
+vendor/bin/power_off_alarm|a22dad49a912473d92bf9c111ef7de6dd927b6f2
+vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|a03a9a1c818595b19272ea6ffb466e23a7fc3b05
+vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|0119fa4d87505bc5d9426ec8ffe56d9dd3bc9e4f
+vendor/lib64/vendor.qti.hardware.alarm@1.0.so|c7c418cfc889a89ea4f21bf828f626c75a2017c3
 
 # Power-off charging daemon
 system/bin/charger:system/bin/chargeonlymode|69b29c2c7b7c65a0d8fd26c2a56f6211e2795fc5
