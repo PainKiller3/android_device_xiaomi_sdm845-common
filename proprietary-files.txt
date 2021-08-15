@@ -182,8 +182,8 @@ vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|eb1a999157
 vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|3e517ec6b4603c6c1f5945b3f131aa69bccb0b08
 
 # Display (HDR) - from OnePlus6 - RKQ1.201217.002
-vendor/lib/libhdr_tm.so|af8f696556839ff13a523a478866064a537c8477
-vendor/lib64/libhdr_tm.so|5267cb8b791aecd6ef8ff64c5206935c5c6f1add
+vendor/lib/libhdr_tm.so|eab66540cffc6b81449cfe620e715de7318e17a3
+vendor/lib64/libhdr_tm.so|5e3fe8e2310dfed221da6694723daef715658e98
 
 # Display (SDM) - from OnePlus6 - RKQ1.201217.002
 vendor/lib/libdisplayqos.so|682f8ac9e13240bb57e3b15edd2d3edb4f4f67ce
