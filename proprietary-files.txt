@@ -182,8 +182,8 @@ vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|eb1a999157
 vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|3e517ec6b4603c6c1f5945b3f131aa69bccb0b08
 
 # Display (HDR) - from OnePlus6 - RKQ1.201217.002
-vendor/lib/libhdr_tm.so|eab66540cffc6b81449cfe620e715de7318e17a3
-vendor/lib64/libhdr_tm.so|5e3fe8e2310dfed221da6694723daef715658e98
+vendor/lib/libhdr_tm.so|af8f696556839ff13a523a478866064a537c8477
+vendor/lib64/libhdr_tm.so|5267cb8b791aecd6ef8ff64c5206935c5c6f1add
 
 # Display (SDM) - from OnePlus6 - RKQ1.201217.002
 vendor/lib/libdisplayqos.so|682f8ac9e13240bb57e3b15edd2d3edb4f4f67ce
@@ -521,9 +521,9 @@ vendor/lib/libOmxEvrcDec.so|60cafcf07bc5bff81bcd24a223fac1ce9237361f
 vendor/lib/libOmxG711Dec.so|a8c5cd42984bfae80363bdfa27b41eadb1bab06d
 vendor/lib/libOmxQcelp13Dec.so|3c8d0a986c786e5f1d63063821943a3d55b7c10e
 vendor/lib/libOmxSwVdec.so|dca5c2291dba00a044fbb755dca8f183ac28b0c2
-vendor/lib/libOmxSwVencMpeg4.so|9bf7c060f0962d15b73c6ac4d8177d74bd42039e
+vendor/lib/libOmxSwVencMpeg4.so|da55f02565049231b8d40475d7f8ff02d835ddec
 vendor/lib/libOmxVideoDSMode.so|98fb390a538c8be34bfbc2aefbdf72d22bd08cd5
-vendor/lib/libOmxVpp.so|bc1e3b1ef2e4da824bb30aaa33b8cdd1173deaec
+vendor/lib/libOmxVpp.so|67e490bd69e45ad9e0107d0eca19cf5171f0ba48
 vendor/lib/libOmxWmaDec.so|8b804765609f4b640535ef6465b86a39c708a977
 vendor/lib/libdsd2pcm.so|c5ab1afd7a5a23bf83d80b5ac74247c3dd2085af
 vendor/lib/libswvdec.so|b9fa357d0f2a507f9fb571af9af11f104eeaeabe
@@ -542,8 +542,8 @@ vendor/lib64/libOmxEvrcDec.so|7cb89457d5f6c952b6d31c54a01ada9a169ad3ad
 vendor/lib64/libOmxG711Dec.so|42ed1199b68a18458857b7e6e3a68fa12b1e56c0
 vendor/lib64/libOmxQcelp13Dec.so|73cb57acd1c743ceb900fa4757d2ef0aae41b233
 vendor/lib64/libOmxSwVdec.so|e51f3098421c231ef4e855531f0ad394dad35c22
-vendor/lib64/libOmxSwVencMpeg4.so|242357226e62caab8595e55f29bdd9b006ba02d7
-vendor/lib64/libOmxVpp.so|ecac67069b45ee1fac35207b31d87633a1550292
+vendor/lib64/libOmxSwVencMpeg4.so|0beeaddfea5410c0842035033f7af96c916e74d3
+vendor/lib64/libOmxVpp.so|89eb28e8dbdbc422dd88adc90ffd3b3628db9369
 vendor/lib64/libOmxWmaDec.so|397a1e6911c1cdf8b5cf9af141646e18a751cb48
 vendor/lib64/libswvdec.so|53fa9fdb8c0e7529b7ba7b7bb9b278389107115a
 
@@ -834,7 +834,7 @@ system_ext/etc/seccomp_policy/wfdservice.policy|ff82c22afdfc6a1f6f19db0d446f97e1
 system_ext/etc/wfdconfigsink.xml|eeaf6d97db961a2af25614390bf7c183b736e9db
 system_ext/lib/com.qualcomm.qti.wifidisplayhal@1.0.so|d1b42bfb512a6573155308ce0eab892d1ceb2ccc
 system_ext/lib/libmmosal.so|3a5d70735a743d9a4835c37e07a465c73511aff1
-system_ext/lib/libmmparser_lite.so|b462c783d78992794ff985f46f5b0e99af6007c7
+system_ext/lib/libmmparser_lite.so|3c40757fb13e42d59b44ce1f038aaa16a21b6ec2
 system_ext/lib/libmmrtpdecoder.so|db34a6876b6437bb419e9beedb421f6c1edbef23
 system_ext/lib/libmmrtpencoder.so|5f9d17ea249cf55bc30019f1db2ab317d5c92d32
 system_ext/lib/libwfdavenhancements.so|dbd01c3247d6c60703b788502c6a57c466918222
@@ -855,7 +855,7 @@ system_ext/lib/libwfduibcsrc.so|1c0f49a5a6313552535ec55b0a4245b3f9556573
 system_ext/lib/libwfduibcsrcinterface.so|828a8ff03570ebbc3bb197c7d0939b555cd887bf
 system_ext/lib/vendor.qti.hardware.wifidisplaysession@1.0.so|48815a18144f60747555bb93650726206c54323f
 system_ext/lib64/libmmosal.so|4f3c95922f3252916a735b2d25354b56d857bb54
-system_ext/lib64/libmmparser_lite.so|fa4f80b5f37267a5246f1e1f2d086dd3ffd165b4
+system_ext/lib64/libmmparser_lite.so|e24ae57840e29a148608fd576c6d194dff43d380
 system_ext/lib64/libmmrtpdecoder.so|4af3071ff57297051bf55ed0f04013f0c53289e6
 system_ext/lib64/libmmrtpencoder.so|65cb0c94b6f97478f13264098641633acffc7416
 system_ext/lib64/libwfdclient.so|9ca3c35940e2b12b366c9c6dadb83614a5f5e307
