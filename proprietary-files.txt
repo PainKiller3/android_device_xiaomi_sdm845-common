@@ -735,39 +735,27 @@ vendor/lib/libsns_low_lat_stream_stub.so
 vendor/lib/libsnsdiaglog.so
 vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so
 
-# Snapdragon Computer Vision Engine
+# Snapdragon Computer Vision Engine - from OnePlus6 - RKQ1.201217.002
 vendor/etc/scve/facereco/gModel.dat
-vendor/lib64/libfastcvopt.so
-vendor/lib64/libfastcvdsp_stub.so
-vendor/lib64/libscveBlobDescriptor.so
-vendor/lib64/libscveBlobDescriptor_stub.so
-vendor/lib64/libscveCommon.so
-vendor/lib64/libscveCommon_stub.so
-vendor/lib64/libscveObjectSegmentation.so
-vendor/lib64/libscveObjectSegmentation_stub.so
-vendor/lib64/libscveObjectTracker.so
-vendor/lib64/libscveObjectTracker_stub.so
-vendor/lib64/libscvePanorama.so
-vendor/lib64/libscvePanorama_lite.so
-vendor/lib64/libscveScan3D.so
+vendor/lib64/libfastcvopt.so|3193f893dd1024f385bd69088a1cde1fb7b8a631
+vendor/lib64/libfastcvdsp_stub.so|af78b8104678b87fbe07d679448ae2f4bc5c461e
+vendor/lib64/libscveCommon.so|fd931674a4bacb73a4d55dadaa7451b79f96d9f6
+vendor/lib64/libscveCommon_stub.so|bcf566f120b795ef6fe85450298475b56e7c9659
+vendor/lib64/libscveObjectSegmentation.so|1598ad3797897eb3331a545c74d937c0ae0aeddf
+vendor/lib64/libscveObjectSegmentation_stub.so|f5d9974c11db8921d8e5d6528c8c39719cec0569
+vendor/lib64/libscveObjectTracker.so|0cf7d3128ae0019d882da5c9d8d9186d549177d1
+vendor/lib64/libscveObjectTracker_stub.so|6f45aa215de07dfeacf811c06af750206bb1cf58
 vendor/lib/rfsa/adsp/libfastcvadsp.so
-vendor/lib/rfsa/adsp/libfastcvdsp_skel.so
-vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so
-vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so
-vendor/lib/rfsa/adsp/libscveT2T_skel.so
-vendor/lib/libfastcvopt.so
-vendor/lib/libfastcvdsp_stub.so
-vendor/lib/libscveBlobDescriptor.so
-vendor/lib/libscveBlobDescriptor_stub.so
-vendor/lib/libscveCommon.so
-vendor/lib/libscveCommon_stub.so
-vendor/lib/libscveObjectSegmentation.so
-vendor/lib/libscveObjectSegmentation_stub.so
-vendor/lib/libscveObjectTracker.so
-vendor/lib/libscveObjectTracker_stub.so
-vendor/lib/libscvePanorama.so
-vendor/lib/libscvePanorama_lite.so
-vendor/lib/libscveScan3D.so
+vendor/lib/rfsa/adsp/libfastcvdsp_skel.so|8bf675449b279af7c5fca352bda605aa31fc6db3
+vendor/lib/rfsa/adsp/libscveT2T_skel.so|2a0aa8bbb7ec727b85b76e6538afa9ba82eb96d6
+vendor/lib/libfastcvopt.so|6f3c305d7cf6f2df0691b794e92f02b73e596e4a
+vendor/lib/libfastcvdsp_stub.so|7f27cee24281bc9bf4f08c6100cc66bd650d8efb
+vendor/lib/libscveCommon.so|b35b80d0e94a2b1dace7b6eb3aee857f0eb344b5
+vendor/lib/libscveCommon_stub.so|dd8ecbe1c788eb48ddfe70366df8d2779aac0a8f
+vendor/lib/libscveObjectSegmentation.so|b60b43377262ef6cc7882ff5cc49d35e4c516670
+vendor/lib/libscveObjectSegmentation_stub.so|e4c80867f010399d57c6cb67918f656698ffb2e5
+vendor/lib/libscveObjectTracker.so|26318c862d3d56596fe7208ebcc3ae1900f7d55f
+vendor/lib/libscveObjectTracker_stub.so|cafdeed8fa0d51672806038065cf4ce38d442b6b
 
 # Soter
 -vendor/app/SoterService/SoterService.apk
